@@ -1,2 +1,2 @@
-# HarshaPrada-sPortfolio
+# HarshaPradaPortfolio
 My portfolio
