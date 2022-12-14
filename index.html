@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="Photo_HarshaPradaMD (3).png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+    <p class="w3-text-grey">Pre-Final Year CSE Student</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://www.linkedin.com/in/harsha-prada-m-d-8970a11bb/" title="W3.CSS" target="_blank" class="w3-hover-opacity"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://github.com/md-harshaprada" title="W3.CSS" target="_blank" class="w3-hover-opacity"> <i class="fa fa-github w3-hover-opacity"></i></a> 
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h4><b>Projects</b></h4>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <a href="https://md-harshaprada.github.io/ExploringMaduraiHTC/" title="W3.CSS" target="_blank" class="w3-hover-opacity"><div class="w3-third w3-container w3-margin-bottom">
+        <img src="hypertextcoders1.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Exploring Madurai HTC</b></p>
+          <p align="justify">Developed a website that acts as a complete guide for both relocators and travellers by providing all the necessary information about a city. The website will contain details about apartments and villas for rent, top educational institutions, and necessities like hospitals and restaurants. And the website guides tourists by providing information about famous places in the city, the history of the city, restaurants and hotels in that city, and so on. The Website acts as a complete guide for outsiders to get relocated in <b>Madurai</b> or to tour Madurai .</p>
+        </div>
+      </div></a>
+    
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="Telegram Message Toxicity Analyser in Real Time.png" alt="telegram toxicity" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Telegram Message Toxicity Analyser in Real Time</b></p>
+        <p align="justify">The project developed assists in analysing social media comments and messages and categorising them as toxic, obscene, threatening, or insulting. It exposes the toxic level of real-time comments posted by users on the web platform and uses <b>Tensorflow</b> to detect them.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="RationShop.jpeg" alt="Shop" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Ration Shop Management</b></p>
+        <p align="justify">The Ration Shop Management application is developed using <b>Java Swing</b> for managing the daily availability of the stocks and providing it for the customers in an economically efficient process. So the main objective of our application is to keep track of the available stocks from the start of the day which includes the processes like deduction of the count of the sold-out stocks and reporting the left out stocks the next day.This application also consists of authenticating the (providing the customer's identity) based on the card number.The customer should be able to view their monthly purchase and also the billing details.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="spark.png" alt="spark" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>sPark</b></p>
+        <p align="justify">The developed software can recognise licence plates on cars entering campus and determine whether or not they are registered. The free parking spaces as well as the number plates are detected with the help of the DL models trained using the <b>Yolov7</b> algorithm after collecting the required datasets from various sources. The free parking spaces that are detected with the help of these models are automatically updated in the database. Additionally, we check to see if the cars assigned parking spots are actually parked in them.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="robber.png" alt="robber" style="width:100%">
+      <div class="w3-container w3-white">
+        <p align="justify"><b>Robber Detection using YOLOV7</b></p>
+        <p>The model is built using the YOLOV7 deep learning algorithm, and it is trained using a custom dataset that has been collected from various sources. The created model helps banks identify robbers. The model can be used in banks and ATM systems that have any type of CCTV installed, and the video footage can be automatically  analysed using openCV.</p>
+      </div>
+    </div>
+     <!--<div class="w3-third w3-container">
+      <img src="/w3images/p3.jpg" alt="todo" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Yet to do</b></p>
+        <p>Yet to do</p>
+      </div>
+    </div>-->
+  </div>
+
+  <!--About Harsha-->
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4 id="about"><b>About Me</b></h4>
+    <p>Hello All!!! Myself I am <b>Harsha Prada M D</b>, I am from Madurai,  and I am currently pursing my 3rd year of BE Computer Science and Engineering at Thiagarajar college of engineering, Madurai. My Technical skills include C, JAVA, Python and Personal include Positive Attitude, Willingness to Learn, Time Management, Team Spirit. My area of interest includes Data Structures and Algorithms, Object Oriented Programming and Machine Learning. I have also presented a conference paper titled <b>"Semi Supervised Approach with Entity Embeddings for Heart Disease Prediction"</b> at the Fifth International Conference jointly organized by <b>University of Malta </b>and<b> NIT Raipur</b>. I preferably have this one quote in my mind to boost my confidence, <b>“Practice like you've never won, and
+Perform like you've never lost”</b>.</p>
+    <hr>
+    
+    
+    
+   
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>harshaprada273@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Madurai, Tamil Nadu, India</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <p align="center"><b>Thanks for visiting my portfolio.</b><br> <b>Have a nice day ! ! !</b></p>
+  </div>
+  </footer>
+  
+  
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
